@@ -1,0 +1,8 @@
+version: '2'
+services:
+    my2ndapp-mongodb:
+        image: mongo:3.4.10
+        ports:
+            - "27017:27017"
+        # volumes:
+        #     - ~/volumes/jhipster/my2ndApp/mongodb/:/data/db/
